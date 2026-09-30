@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Bookstore Survey</title>
+</head>
+<body>
+    <h1>School Bookstore Survey</h1>
+    
+    <form>
+        <table>
+            <tr>
+                <td style="padding-right: 20px;">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </td>
+                <td style="padding-right: 20px;">
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-right: 20px; padding-top: 15px;">
+                    <label for="city">City:</label><br>
+                    <input type="text" id="city" name="city" required>
+                </td>
+                <td style="padding-top: 15px;">
+                    <label for="pincode">Pincode:</label><br>
+                    <input type="text" id="pincode" name="pincode" required>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-top: 15px;" colspan="2">
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        
+        <label>Where do you buy books?</label>
+        <br>
+        <input type="radio" name="where" value="school"> School Bookstore
+        <br>
+        <input type="radio" name="where" value="online"> Online
+        <br>
+        <input type="radio" name="where" value="local"> Local Shop
+        <br><br>
+        
+        <label>Which language books do you prefer?</label>
+        <br>
+        <input type="radio" name="language" value="english"> English
+        <br>
+        <input type="radio" name="language" value="gujarati"> Gujarati
+        <br>
+        <input type="radio" name="language" value="hindi"> Hindi
+        <br><br>
+        
+        <label for="budget">Budget per book:</label>
+        <br>
+        <select id="budget" name="budget">
+            <option>Select</option>
+            <option>0-200</option>
+            <option>200-500</option>
+            <option>500+</option>
+        </select>
+        <br><br>
+        
+        <label>How do you find out about new books?</label>
+        <br>
+        <input type="radio" name="findbooks" value="friends"> Friends Recommendation
+        <br>
+        <input type="radio" name="findbooks" value="reviews"> Online Reviews
+        <br>
+        <input type="radio" name="findbooks" value="website"> Bookstore Website
+        <br><br>
+        
+        <label>Rate our bookstore:</label>
+        <br>
+        <input type="radio" name="rating" value="good"> Good
+        <br>
+        <input type="radio" name="rating" value="average"> Average
+        <br>
+        <input type="radio" name="rating" value="poor"> Poor
+        <br><br>
+        
+        <label for="feedback">Feedback:</label>
+        <br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+        <br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
