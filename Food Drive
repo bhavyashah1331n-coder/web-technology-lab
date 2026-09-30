@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> Community Food Drive </title>
+</head>
+<body>
+      <h1> Community Food Driver </h1>
+      <p> Help us serve our community and feed families in need!! </p>        
+      <h2> Why I Volunteer </h2>
+      <p> I choose to volunteer  because it allows me to directly support families in our community and make a positive difference. </p>
+      <h3> How You Can Help </h3>
+      <ul>
+          <li> Donate non-perishable food items </li>
+          <li> Volunteer your time to pack meals </li>
+          <li> Spread the word to friends and family </li>
+      </ul>
+      <h4> Contact Us </h4>
+      <p> Email us at: volunteer@fooddrive.org </p> 
+</body>
+</html>
